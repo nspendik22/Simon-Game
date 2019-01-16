@@ -1,0 +1,44 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    </head>
+  <body>
+    <h2>Simon Game</h2>
+    <div class="canvas">
+      <div class="board">
+        <div class="wrapper">
+          <div class="row top">
+            <div class="left red top-left"></div>
+            <div class="right green top-right"></div>
+          </div>
+          <div class="row bottom">
+            <div class="left yellow bottom-left"></div>
+            <div class="right blue bottom-right"></div>
+          </div>
+        </div>
+        <div class="menu-wrapper">
+          <div class="menu">
+            <div class="title"><h1>Simon Game</h1></div>
+            <div class="count"><span>0</span></div>
+            <div class="buttons">
+              <div class="start"><span>Start</span></div>
+              <div class="strict"><span>Strict</span></div>
+            </div>
+            	<div class="toggle toggle--push">
+                <input type="checkbox" id="toggle--push" class="toggle--checkbox">
+                <label class="toggle--btn" for="toggle--push" data-label-on="on"  data-label-off="off"></label>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2>Created by Nikolas Spendik</h2>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
